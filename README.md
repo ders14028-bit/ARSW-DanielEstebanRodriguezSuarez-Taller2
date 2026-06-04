@@ -71,6 +71,10 @@ A console application that asks the user for a URL, reads its content using stre
 
 ### Test Screenshot
 
+![alt text](image-2.png)
+
+![alt text](image-1.png)
+
 
 
 ---
@@ -90,7 +94,9 @@ A TCP server that receives a number from a client and responds with the square o
 
 ### Test Screenshot
 
+![alt text](image-3.png)
 
+![alt text](image-4.png)
 
 ---
 

@@ -29,9 +29,6 @@
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.1.0</version>
-                <configuration>
-                    <mainClass>ejercicio1.Ejercicio1Main</mainClass>
-                </configuration>
             </plugin>
 
             <plugin>
@@ -60,7 +57,7 @@
                             <classifier>ejercicio2</classifier>
                             <archive>
                                 <manifest>
-                                    <mainClass>ejercicio2.UrlBrowserApp</mainClass>
+                                    <mainClass>ejercicio2.Ejercicio2Main</mainClass>
                                 </manifest>
                             </archive>
                         </configuration>
@@ -73,7 +70,7 @@
                             <classifier>ejercicio3</classifier>
                             <archive>
                                 <manifest>
-                                    <mainClass>ejercicio3.SquareServerApp</mainClass>
+                                    <mainClass>ejercicio3.Ejercicio3Main</mainClass>
                                 </manifest>
                             </archive>
                         </configuration>
@@ -86,7 +83,7 @@
                             <classifier>ejercicio4</classifier>
                             <archive>
                                 <manifest>
-                                    <mainClass>ejercicio4.TrigServerApp</mainClass>
+                                    <mainClass>ejercicio4.Ejercicio4Main</mainClass>
                                 </manifest>
                             </archive>
                         </configuration>
@@ -99,7 +96,7 @@
                             <classifier>ejercicio5</classifier>
                             <archive>
                                 <manifest>
-                                    <mainClass>ejercicio5.SimpleHttpServerApp</mainClass>
+                                    <mainClass>ejercicio5.Ejercicio5Main</mainClass>
                                 </manifest>
                             </archive>
                         </configuration>
@@ -112,7 +109,7 @@
                             <classifier>ejercicio6</classifier>
                             <archive>
                                 <manifest>
-                                    <mainClass>ejercicio6.UdpTimePollingClientApp</mainClass>
+                                    <mainClass>ejercicio6.Ejercicio6Main</mainClass>
                                 </manifest>
                             </archive>
                         </configuration>
@@ -125,7 +122,7 @@
                             <classifier>ejercicio7</classifier>
                             <archive>
                                 <manifest>
-                                    <mainClass>ejercicio7.RmiChatApp</mainClass>
+                                    <mainClass>ejercicio7.Ejercicio7Main</mainClass>
                                 </manifest>
                             </archive>
                         </configuration>
