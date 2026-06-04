@@ -26,6 +26,15 @@
             </plugin>
 
             <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.1.0</version>
+                <configuration>
+                    <mainClass>ejercicio1.Ejercicio1Main</mainClass>
+                </configuration>
+            </plugin>
+
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>3.4.2</version>
@@ -33,14 +42,12 @@
                     <execution>
                         <id>jar-ejercicio1</id>
                         <phase>package</phase>
-                        <goals>
-                            <goal>jar</goal>
-                        </goals>
+                        <goals><goal>jar</goal></goals>
                         <configuration>
                             <classifier>ejercicio1</classifier>
                             <archive>
                                 <manifest>
-                                    <mainClass>ejercicio1.UrlMethodsApp</mainClass>
+                                    <mainClass>ejercicio1.Ejercicio1Main</mainClass>
                                 </manifest>
                             </archive>
                         </configuration>
@@ -48,9 +55,7 @@
                     <execution>
                         <id>jar-ejercicio2</id>
                         <phase>package</phase>
-                        <goals>
-                            <goal>jar</goal>
-                        </goals>
+                        <goals><goal>jar</goal></goals>
                         <configuration>
                             <classifier>ejercicio2</classifier>
                             <archive>
@@ -63,9 +68,7 @@
                     <execution>
                         <id>jar-ejercicio3</id>
                         <phase>package</phase>
-                        <goals>
-                            <goal>jar</goal>
-                        </goals>
+                        <goals><goal>jar</goal></goals>
                         <configuration>
                             <classifier>ejercicio3</classifier>
                             <archive>
@@ -78,9 +81,7 @@
                     <execution>
                         <id>jar-ejercicio4</id>
                         <phase>package</phase>
-                        <goals>
-                            <goal>jar</goal>
-                        </goals>
+                        <goals><goal>jar</goal></goals>
                         <configuration>
                             <classifier>ejercicio4</classifier>
                             <archive>
@@ -93,9 +94,7 @@
                     <execution>
                         <id>jar-ejercicio5</id>
                         <phase>package</phase>
-                        <goals>
-                            <goal>jar</goal>
-                        </goals>
+                        <goals><goal>jar</goal></goals>
                         <configuration>
                             <classifier>ejercicio5</classifier>
                             <archive>
@@ -108,9 +107,7 @@
                     <execution>
                         <id>jar-ejercicio6</id>
                         <phase>package</phase>
-                        <goals>
-                            <goal>jar</goal>
-                        </goals>
+                        <goals><goal>jar</goal></goals>
                         <configuration>
                             <classifier>ejercicio6</classifier>
                             <archive>
@@ -123,9 +120,7 @@
                     <execution>
                         <id>jar-ejercicio7</id>
                         <phase>package</phase>
-                        <goals>
-                            <goal>jar</goal>
-                        </goals>
+                        <goals><goal>jar</goal></goals>
                         <configuration>
                             <classifier>ejercicio7</classifier>
                             <archive>

@@ -44,12 +44,14 @@ A program that creates a URL object and prints the values returned by its 8 meth
 
 
 
+
 ### Observations
 
 
 
 ### Test Screenshot
 
+![alt text](<Captura de pantalla 2026-06-04 110616.png>)
 
 
 ---
