@@ -115,6 +115,10 @@ A TCP server that receives a number and computes a trigonometric function (sin, 
 
 ### Test Screenshot
 
+![alt text](image-6.png)
+
+![alt text](image-5.png)
+
 
 
 ---
